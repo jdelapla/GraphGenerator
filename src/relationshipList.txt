@@ -1,0 +1,43 @@
+//This document must be named relationshipList.txt at all times
+//Format for each line:
+// "SPDX relationship term as listed in rdf format" + "\t" + "descriptive term"
+// Descriptive terms:
+// 		blank: the relationship will not be drawn
+//		static: static link line connection
+//		dynamic: dynamic link line connection'
+//		contain: will contain the other entity
+//		containedBy: will be contained by the other entity
+//Important Note: if your text editor replaces a '\t' with several spaces, this will cause runtime issues.
+http://spdx.org/rdf/terms#relationshipType_amends	blank
+http://spdx.org/rdf/terms#relationshipType_ancestorOf	blank
+http://spdx.org/rdf/terms#relationshipType_buildToolOf	blank
+http://spdx.org/rdf/terms#relationshipType_containedBy	containedBy
+http://spdx.org/rdf/terms#relationshipType_contains	contain
+http://spdx.org/rdf/terms#relationshipType_copyOf	blank
+http://spdx.org/rdf/terms#relationshipType_dataFile	blank
+http://spdx.org/rdf/terms#relationshipType_descendantOf	blank
+http://spdx.org/rdf/terms#relationshipType_describedBy	blank
+http://spdx.org/rdf/terms#relationshipType_describes	blank
+http://spdx.org/rdf/terms#relationshipType_distributionArtifact	blank
+http://spdx.org/rdf/terms#relationshipType_documentation	blank
+http://spdx.org/rdf/terms#relationshipType_dynamicLink	dynamic
+http://spdx.org/rdf/terms#relationshipType_expandedFromArchive	blank
+http://spdx.org/rdf/terms#relationshipType_fileAdded	blank
+http://spdx.org/rdf/terms#relationshipType_fileDeleted	blank
+http://spdx.org/rdf/terms#relationshipType_fileModified	blank
+http://spdx.org/rdf/terms#relationshipType_generatedFrom	blank
+http://spdx.org/rdf/terms#relationshipType_generates	blank
+http://spdx.org/rdf/terms#relationshipType_hasPrerequisite	blank
+http://spdx.org/rdf/terms#relationshipType_metafileOf	blank
+http://spdx.org/rdf/terms#relationshipType_optionalComponentOf	blank
+http://spdx.org/rdf/terms#relationshipType_other	blank
+http://spdx.org/rdf/terms#relationshipType_packageOf	blank
+http://spdx.org/rdf/terms#relationshipType_patchApplied	blank
+http://spdx.org/rdf/terms#relationshipType_patchFor	blank
+http://spdx.org/rdf/terms#relationshipType_prerequisiteFor	blank
+http://spdx.org/rdf/terms#relationshipType_staticLink	static
+http://spdx.org/rdf/terms#relationshipType_testcaseOf	blank
+http://spdx.org/rdf/terms#relationshipType_variantOf	blank
+has file	contain
+file dependency	static
+blank	blank
